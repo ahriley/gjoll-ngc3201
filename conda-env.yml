@@ -1,0 +1,27 @@
+name: gjoll
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # project-specific
+  - astropy
+  - astro-gala
+  - pytest
+  - sfdmap
+
+  # core scientific python
+  - python
+  - pip
+  - numpy
+  - scipy
+  - pandas
+
+  # plotting packages
+  - matplotlib
+  - seaborn
+
+  # for my workflow
+  - jupyter
+  - jupyterlab
