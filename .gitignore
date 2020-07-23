@@ -1,3 +1,8 @@
+# Large data files
+data/gaia-data/NGC3201-input.csv
+data/gaia-data/final-input.csv
+scratch/ngc4590-ps1e/query-stream-20mag.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
