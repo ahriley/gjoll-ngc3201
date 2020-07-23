@@ -52,4 +52,5 @@ cols = ['source_id', 'ra', 'dec', 'g0', 'bp_rp0', 'parallax', 'parallax_error',
         'pmra', 'pmra_error', 'pmdec', 'pmdec_error', 'v_hel', 'v_hel_error',
         'good_cand_ibata']
 table1 = pd.concat([df, all], ignore_index=True)[cols]
+table1.drop_duplicates(subset=['source_id'], inplace=True)
 table1.to_csv('tables/table1-long.csv', index=False)
